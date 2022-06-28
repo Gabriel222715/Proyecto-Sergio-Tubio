@@ -1,0 +1,137 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html{
+    font-family: 'rubik', sans-serif;
+}
+@media (min-width: 480px){
+h1{
+    color: purple;
+    font-style: italic;
+    font-size: 8rem;
+    text-align: center;
+    background-color: rgb(199, 199, 186);
+  }
+}
+form{
+    color: rgba(107, 2, 67, 0.548);
+    font-size: 2rem;
+}
+header{ 
+    background-color:rgb(56, 45, 56);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    font-size: 2rem;
+    justify-content: space-between;
+}
+header nav ul li{
+    display: inline block;
+}
+h3{
+    color:purple;
+    font-size: 1.3rem;
+}
+
+li{
+    color: rgb(36, 35, 35);
+}
+.caja{
+    border-color: lawngreen;
+    border-style:solid;
+    border: solid 5px lawngreen
+}
+
+@media (min-width: 480px){
+.contenedor{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: 1fr 1fr;
+   gap: 20px;
+ }
+}
+
+.navheader{
+    display: inline-block;
+    border: solid 1px yellow;
+    border-radius: 10%;
+    list-style-type:none;
+    color: white;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 2fr 3fr 1fr;
+    grid-template-rows: 2fr 1fr fr;
+    margin: 10px;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.fondocolortec{
+    background-color:rgb(196, 34, 34) ;
+}
+.colorfondosalud{
+    background-color: rgb(230, 230, 28);
+}.colorfondomuebles{
+    background-color: seagreen;
+}
+.colorfondoelectro{
+    background-color: mediumpurple;
+}
+.colorfondocontac{
+    background-color: rgb(100, 165, 14);
+}
+.colorfondobebes{
+    background-color: pink;
+}
+.contenedortec{
+    display: grid;
+    grid-row: 1fr 1fr;
+    gap: 20px;
+}
+.contenedorelec{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+}
+.navindex{
+    display: inline-block;
+}
+.footerX{
+    display: block;
+}
+.botones{
+    color: red;
+    font-weight: 700;
+    font-style: italic;
+}
+.tarjeta__button{
+    color: blue;
+    font-weight: 700;
+    font-style: italic;
+}
+.tarjeta__button--compra{
+    color: red;
+    font-weight: 700;
+    font-style: italic;
+}
+.texto{
+    text-align:justify;
+    background-color: darksalmon;
+    font-size: 20px;
+    font-family: italic;
+}
+.colorfootersobre{
+    background-color: rgb(243, 177, 55);
+}
+.colormain{
+    background-color: darkkhaki;
+}
+
+.imagenelec{
+    width: 100%; 
+    
+   } 
