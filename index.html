@@ -14,7 +14,7 @@
     <title>inicio-electrobella</title>
 </head>
 
-<body>
+<body class="container-fluid">
 
     <h1>Electrobella</h1>
     <form>
@@ -53,9 +53,9 @@
             </div>
         </nav>
     </header>
-
-    <main class="colorfondo">
-        <img class="imagenelec" src="./img/varioselectrodomesticos.jpeg" alt="Imagenes electrodomesticos">
+     <section>    
+      <main class="colorfondo">
+        <img src="./img/varioselectrodomesticos.jpeg" class="rounded-pill" alt="...">
             <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
@@ -83,7 +83,7 @@
           </div>
         <section class="banner">
             <h2 class="banner__titulo">Oferta imperdible!!!</h2>
-            <img src="./img/lavarropa.jpg" alt="" class=tarjeta__imagen>
+            <img src="./img/lavarropa.jpg" class="rounded" alt="">
             <div class="caja">Promocion valida hasta fin de mes
             </div>
         </section>
@@ -92,39 +92,40 @@
             <button class="botones">Medios de Pago</button>
             <button class="botones">Credito personal</button>
         </section>
-    </main>
-
+      </main>
     <footer>
-        <section class="grid">
-            <h3>Redes sociales</h3>
+        <div class="container">
+            <div class="row">
+              <div class="col">
+               <h3>Redes sociales</h3>
             <div>
                 <img src="./img/instagram.png" alt="logo instagram">
                 <img src="./img/facebook.png" alt="lodo facebook">
                 <img src="./img/whatsapp.png" alt="logo whatsapp">
                 <img src="./img/gorjeo.jpg" alt="logo twitter">
             </div>
-
-            <div>
+              </div>
+              <div class="col">
                 <h3>Telefono</h3>
-                <ul class="colorletras">
+                 <ul class="colorletras">
                     <li>4237-8990</li>
                     <li>4237-0181</li>
                     <li>4237-9045</li>
                 </ul>
-            </div>
-
-            <div>
+              </div>
+              <div class="col">
                 <h3>Sucursales</h3>
-                <ul>
-                    <li>Rio Gallegos 1778</li>
-                    <li>Balvanera 1456</li>
-                    <li>Rio Caraguata 1350</li>
-                    <li>Yrigoyen 1567</li>
+                   <ul>
+                     <li>Rio Gallegos 1778</li>
+                     <li>Balvanera 1456</li>
+                     <li>Rio Caraguata 1350</li>
+                     <li>Yrigoyen 1567</li>
                 </ul>
+              </div>
             </div>
-        </section>
+          </div>
     </footer>
-    <script src="./js/bootstrap.js"></script>
+  <script src="./js/bootstrap.js"></script>
 </body>
 
 </html>
